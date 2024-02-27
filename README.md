@@ -22,7 +22,7 @@ Recover data from a bit-to-bit copy of a 100GiB ext4 partition with 4K sectors.
 ## Why It Works
 Based on the probability calculation, files are typically adjacent to each other and don't occupy a full sector.
 
-$ \lim \left(\frac{1}{2}\right)^{8\times\text{length of consecutive NULLs}}\times100\times1024^3 = 0 $
+$\lim\left(\frac{1}{2}\right)^{8\times\text{length of consecutive NULLs}}\times100\times1024^3=0$
 
 ## Process Overview
 
